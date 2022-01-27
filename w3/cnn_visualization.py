@@ -15,6 +15,8 @@ print(f"model 3 eval: {model3.evaluate(test_images, test_labels)}")
 
 model = model2
 
+print(model.summary())
+
 # visualize convolutional and pooling
 print(test_labels[:100])
 
